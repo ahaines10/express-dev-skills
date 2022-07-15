@@ -1,0 +1,11 @@
+<%- include('../partials/header') %>
+
+<h1>New skill</h1>
+
+<!-- action === href of an a tag -->
+<form action="/skills" method="POST" autocomplete="off">
+  <input type="text" placeholder="Enter new skill" name="skill" />
+  <input type="submit" value="ADD skill" />
+</form>
+
+<%- include('../partials/footer') %>
